@@ -10,7 +10,7 @@ const products = [
   {
     id: 2,
     name: "Necklace",
-    price: 40000,
+    price: 15000,
     category: "Necklaces",
     image: "images/product/arabiccutoutnecklace.jpeg",
   },
@@ -18,7 +18,7 @@ const products = [
   {
     id: 3,
     name: "Gold Watch",
-    price: 55000,
+    price: 30000,
     category: "Watches",
     image: "images/product/poedagarwatch.jpeg",
   },
@@ -26,15 +26,15 @@ const products = [
   {
     id: 4,
     name: "Necklace",
-    price: 18000,
+    price: 13500,
     category: "Necklace",
-    image: "../images/product/butterflycutout.jpeg",
+    image: "images/product/butterflycutout.jpeg",
   },
 
   {
     id: 5,
     name: "Necklace",
-    price: 18000,
+    price: 10500,
     category: "Necklace",
     image: "images/product/necklaceengraved.jpeg",
   },
