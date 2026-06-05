@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Glitters Brand</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <a href="index.html"> THE GLITTERS BRAND </a>
+      </div>
+
+      <!-- MENU BUTTON -->
+
+      <div class="menu-btn" id="menu-btn">☰</div>
+
+      <!-- BLUR OVERLAY -->
+
+      <div class="overlay" id="overlay"></div>
+
+      <!-- MOBILE MENU -->
+
+      <nav class="nav-menu" id="nav-menu">
+        <div class="close-btn" id="close-btn">✕</div>
+
+        <a href="index.html">Home</a>
+
+        <a href="shop.html">Shop</a>
+
+        <a href="cart.html" class="cart-link">
+          🛒 Cart
+
+          <span id="cart-count"> 0 </span>
+        </a>
+
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Luxury In Every Detail</h1>
+        <p>Elegant jewelry crafted to make every moment shine.</p>
+
+        <div class="hero-buttons">
+          <a href="shop.html" class="primary-btn">Shop Now</a>
+          <a href="contact.html" class="secondary-btn">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <h2>Shop Categories</h2>
+
+      <div class="category-grid">
+        <div class="category-card">
+          <div class="image-placeholder">Rings</div>
+        </div>
+
+        <div class="category-card">
+          <img
+            src="images/product/necklaceengraved.jpeg"
+            alt="Necklaces"
+            class="category-image"
+          />
+
+          <h3>Necklaces</h3>
+        </div>
+
+        <div class="category-card">
+          <img
+            src="images/product/bracletcombo.jpeg"
+            alt="Bracelets"
+            class="category-image"
+          />
+
+          <h3>Bracelets</h3>
+        </div>
+
+        <div class="category-card">
+          <img
+            src="images/product/poedagarwatch.jpeg"
+            alt="Watches"
+            class="category-image"
+          />
+
+          <h3>Watches</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-products">
+      <h2>Featured Products</h2>
+
+      <div class="product-grid" id="featured-products"></div>
+    </section>
+
+    <footer>
+      <h3>The Glitters Brand</h3>
+      <p>Luxury Jewelry For Every Occasion</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+
+    <script>
+      displayProducts("featured-products");
+    </script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

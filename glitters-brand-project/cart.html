@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - The Glitters Brand</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <a href="index.html"> THE GLITTERS BRAND </a>
+      </div>
+
+      <!-- MENU BUTTON -->
+
+      <div class="menu-btn" id="menu-btn">☰</div>
+
+      <!-- BLUR OVERLAY -->
+
+      <div class="overlay" id="overlay"></div>
+
+      <!-- MOBILE MENU -->
+
+      <nav class="nav-menu" id="nav-menu">
+        <div class="close-btn" id="close-btn">✕</div>
+
+        <a href="index.html">Home</a>
+
+        <a href="shop.html">Shop</a>
+
+        <a href="cart.html" class="cart-link">
+          🛒 Cart
+
+          <span id="cart-count"> 0 </span>
+        </a>
+
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <section class="cart-page">
+      <h1>Your Cart</h1>
+
+      <div id="cart-items"></div>
+
+      <div class="cart-summary">
+        <h2>Total: ₦<span id="cart-total">0</span></h2>
+
+        <textarea id="customer-note" placeholder="Customer Note"></textarea>
+        <a href="shop.html" class="back-shopping"> ← Back To Shopping </a>
+        <button id="checkout-btn">Checkout on WhatsApp</button>
+      </div>
+    </section>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
